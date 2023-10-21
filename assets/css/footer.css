@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-footer{
+    width: 100%;
+    padding: 40px 0;
+    background: #f0efea;
+    margin-top: 40px;
+    
+}
+
+.container-footer footer{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.container-footer footer .logo-footer{
+    text-align: center;
+}
+
+.container-footer footer .logo-footer img{
+    width: 150px;
+}
+
+.container-footer footer .redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.container-footer footer .redes-footer .icon-redes-footer{
+    font-size: 20px;
+    margin: 20px;
+    background: #efefef;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #d1d0d0;
+    border-style: solid;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer .redes-footer .fa-facebook-f:hover{
+    background: #41579a;
+    color: #ffffff;
+}
+
+footer .redes-footer .fa-google-plus-g:hover{
+    background: #de4c34;
+    color: #ffffff;
+}
+
+footer .redes-footer .fa-instagram:hover{
+    background: linear-gradient(to top right, #fede30, #e9712a, #d2313b, #ae4198, #7540a1, #5443a8);
+    color: #ffffff;
+}
+
+.container-footer footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #000000;
+
+}
+
+.container-footer h4{
+    text-align: center;
+    margin-top: 40px;
+    color: #8e8e8e;
+    font-weight: 500px;
+}
+

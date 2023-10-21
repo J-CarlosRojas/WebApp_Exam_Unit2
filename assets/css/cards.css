@@ -1,0 +1,101 @@
+:root{
+    --primary: #DD946F;
+    --secondary: #f0efeae7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--secondary);
+    font-family: 'Onest', sans-serif;
+}
+
+.background {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+}
+
+.title{
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.title_Planets{
+    text-align: center;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 24px;
+}
+
+.containerTriada{
+    flex-direction: row;
+}
+
+.articles article {
+    max-width: 240px;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.articles article a {
+    display: inline-flex;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.articles article h2{
+    margin: 0 0 18px 0;
+    font-size: 1.6rem;
+    color: grey;
+    transition: color 0.3s ease-in-out;
+
+}
+
+.articles article img{
+    max-width: 100%;
+    transform-origin: center;
+    /*transition: transform 0.4s ease-in-out;*/
+    
+}
+
+.article-preview{
+    padding: 24px;
+    background: white;
+}
+
+.articles figure{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.articles figure img{
+    height: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.articles article:hover img{
+    transform: scale(1.5);
+}
